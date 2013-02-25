@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DBEC7FB16DB02EF00CA3F11 /* SCFGAppBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DBEC7F916DB02EF00CA3F11 /* SCFGAppBackground.png */; };
+		1DBEC7FC16DB02EF00CA3F11 /* SCFGAppBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DBEC7FA16DB02EF00CA3F11 /* SCFGAppBackground@2x.png */; };
+		1DBEC80216DB060000CA3F11 /* SCFGAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DBEC80116DB060000CA3F11 /* SCFGAppIcon.png */; };
+		1DBEC80416DB06F800CA3F11 /* SCFGAppIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DBEC80316DB06F800CA3F11 /* SCFGAppIcon@2x.png */; };
+		1DBEC80716DB07A000CA3F11 /* UIColor+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBEC80616DB07A000CA3F11 /* UIColor+Helpers.m */; };
+		1DBEC80E16DB295300CA3F11 /* SCFGImageGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBEC80D16DB295300CA3F11 /* SCFGImageGenerator.m */; };
 		1DDD6D9016D32D0D00D2E7DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DDD6D8F16D32D0D00D2E7DA /* UIKit.framework */; };
 		1DDD6D9216D32D0D00D2E7DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DDD6D9116D32D0D00D2E7DA /* Foundation.framework */; };
 		1DDD6D9416D32D0D00D2E7DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DDD6D9316D32D0D00D2E7DA /* CoreGraphics.framework */; };
@@ -17,11 +23,18 @@
 		1DDD6DA416D32D0D00D2E7DA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD6DA316D32D0D00D2E7DA /* Default@2x.png */; };
 		1DDD6DA616D32D0D00D2E7DA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD6DA516D32D0D00D2E7DA /* Default-568h@2x.png */; };
 		1DDD6DA916D32D0D00D2E7DA /* SCFGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDD6DA816D32D0D00D2E7DA /* SCFGViewController.m */; };
-		1DDD6DAC16D32D0D00D2E7DA /* SCFGViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD6DAA16D32D0D00D2E7DA /* SCFGViewController_iPhone.xib */; };
-		1DDD6DAF16D32D0D00D2E7DA /* SCFGViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD6DAD16D32D0D00D2E7DA /* SCFGViewController_iPad.xib */; };
+		1DDD6DB716D32E0900D2E7DA /* SCFGElementView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDD6DB616D32E0900D2E7DA /* SCFGElementView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1DBEC7F916DB02EF00CA3F11 /* SCFGAppBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SCFGAppBackground.png; sourceTree = "<group>"; };
+		1DBEC7FA16DB02EF00CA3F11 /* SCFGAppBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SCFGAppBackground@2x.png"; sourceTree = "<group>"; };
+		1DBEC80116DB060000CA3F11 /* SCFGAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SCFGAppIcon.png; sourceTree = "<group>"; };
+		1DBEC80316DB06F800CA3F11 /* SCFGAppIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SCFGAppIcon@2x.png"; sourceTree = "<group>"; };
+		1DBEC80516DB07A000CA3F11 /* UIColor+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Helpers.h"; sourceTree = "<group>"; };
+		1DBEC80616DB07A000CA3F11 /* UIColor+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Helpers.m"; sourceTree = "<group>"; };
+		1DBEC80C16DB295300CA3F11 /* SCFGImageGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCFGImageGenerator.h; sourceTree = "<group>"; };
+		1DBEC80D16DB295300CA3F11 /* SCFGImageGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCFGImageGenerator.m; sourceTree = "<group>"; };
 		1DDD6D8C16D32D0D00D2E7DA /* SCFGSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCFGSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DDD6D8F16D32D0D00D2E7DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1DDD6D9116D32D0D00D2E7DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,8 +50,8 @@
 		1DDD6DA516D32D0D00D2E7DA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1DDD6DA716D32D0D00D2E7DA /* SCFGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCFGViewController.h; sourceTree = "<group>"; };
 		1DDD6DA816D32D0D00D2E7DA /* SCFGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCFGViewController.m; sourceTree = "<group>"; };
-		1DDD6DAB16D32D0D00D2E7DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SCFGViewController_iPhone.xib; sourceTree = "<group>"; };
-		1DDD6DAE16D32D0D00D2E7DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SCFGViewController_iPad.xib; sourceTree = "<group>"; };
+		1DDD6DB516D32E0900D2E7DA /* SCFGElementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCFGElementView.h; sourceTree = "<group>"; };
+		1DDD6DB616D32E0900D2E7DA /* SCFGElementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCFGElementView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,8 @@
 		1DDD6D8316D32D0D00D2E7DA = {
 			isa = PBXGroup;
 			children = (
+				1DBEC80316DB06F800CA3F11 /* SCFGAppIcon@2x.png */,
+				1DBEC80116DB060000CA3F11 /* SCFGAppIcon.png */,
 				1DDD6D9516D32D0D00D2E7DA /* SCFGSampleApp */,
 				1DDD6D8E16D32D0D00D2E7DA /* Frameworks */,
 				1DDD6D8D16D32D0D00D2E7DA /* Products */,
@@ -85,13 +100,17 @@
 		1DDD6D9516D32D0D00D2E7DA /* SCFGSampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				1DBEC80C16DB295300CA3F11 /* SCFGImageGenerator.h */,
+				1DBEC80D16DB295300CA3F11 /* SCFGImageGenerator.m */,
+				1DBEC80516DB07A000CA3F11 /* UIColor+Helpers.h */,
+				1DBEC80616DB07A000CA3F11 /* UIColor+Helpers.m */,
 				1DDD6D9E16D32D0D00D2E7DA /* SCFGAppDelegate.h */,
 				1DDD6D9F16D32D0D00D2E7DA /* SCFGAppDelegate.m */,
 				1DDD6DA716D32D0D00D2E7DA /* SCFGViewController.h */,
 				1DDD6DA816D32D0D00D2E7DA /* SCFGViewController.m */,
-				1DDD6DAA16D32D0D00D2E7DA /* SCFGViewController_iPhone.xib */,
-				1DDD6DAD16D32D0D00D2E7DA /* SCFGViewController_iPad.xib */,
 				1DDD6D9616D32D0D00D2E7DA /* Supporting Files */,
+				1DDD6DB516D32E0900D2E7DA /* SCFGElementView.h */,
+				1DDD6DB616D32E0900D2E7DA /* SCFGElementView.m */,
 			);
 			path = SCFGSampleApp;
 			sourceTree = "<group>";
@@ -99,6 +118,8 @@
 		1DDD6D9616D32D0D00D2E7DA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1DBEC7F916DB02EF00CA3F11 /* SCFGAppBackground.png */,
+				1DBEC7FA16DB02EF00CA3F11 /* SCFGAppBackground@2x.png */,
 				1DDD6D9716D32D0D00D2E7DA /* SCFGSampleApp-Info.plist */,
 				1DDD6D9816D32D0D00D2E7DA /* InfoPlist.strings */,
 				1DDD6D9B16D32D0D00D2E7DA /* main.m */,
@@ -166,8 +187,10 @@
 				1DDD6DA216D32D0D00D2E7DA /* Default.png in Resources */,
 				1DDD6DA416D32D0D00D2E7DA /* Default@2x.png in Resources */,
 				1DDD6DA616D32D0D00D2E7DA /* Default-568h@2x.png in Resources */,
-				1DDD6DAC16D32D0D00D2E7DA /* SCFGViewController_iPhone.xib in Resources */,
-				1DDD6DAF16D32D0D00D2E7DA /* SCFGViewController_iPad.xib in Resources */,
+				1DBEC7FB16DB02EF00CA3F11 /* SCFGAppBackground.png in Resources */,
+				1DBEC7FC16DB02EF00CA3F11 /* SCFGAppBackground@2x.png in Resources */,
+				1DBEC80216DB060000CA3F11 /* SCFGAppIcon.png in Resources */,
+				1DBEC80416DB06F800CA3F11 /* SCFGAppIcon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +204,9 @@
 				1DDD6D9C16D32D0D00D2E7DA /* main.m in Sources */,
 				1DDD6DA016D32D0D00D2E7DA /* SCFGAppDelegate.m in Sources */,
 				1DDD6DA916D32D0D00D2E7DA /* SCFGViewController.m in Sources */,
+				1DDD6DB716D32E0900D2E7DA /* SCFGElementView.m in Sources */,
+				1DBEC80716DB07A000CA3F11 /* UIColor+Helpers.m in Sources */,
+				1DBEC80E16DB295300CA3F11 /* SCFGImageGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,22 +219,6 @@
 				1DDD6D9916D32D0D00D2E7DA /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		1DDD6DAA16D32D0D00D2E7DA /* SCFGViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1DDD6DAB16D32D0D00D2E7DA /* en */,
-			);
-			name = SCFGViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		1DDD6DAD16D32D0D00D2E7DA /* SCFGViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1DDD6DAE16D32D0D00D2E7DA /* en */,
-			);
-			name = SCFGViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -313,6 +323,7 @@
 				1DDD6DB416D32D0D00D2E7DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
