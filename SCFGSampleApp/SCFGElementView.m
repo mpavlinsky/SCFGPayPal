@@ -73,13 +73,11 @@
 }
 
 - (void)reinitialize {
-    [UIView animateWithDuration:0.25f animations:^{
-        self.transform = CGAffineTransformIdentity;
-        self.alpha = 1.0f;
-        self.frame = CGRectMake(0.0f, 0.0f, elementSize, elementSize);
-        self.elementButton.frame = self.bounds;
-        self.rotation = 0.0f;
-    }];
+    self.transform = CGAffineTransformIdentity;
+    self.alpha = 1.0f;
+    self.frame = CGRectMake(0.0f, 0.0f, elementSize, elementSize);
+    self.elementButton.frame = self.bounds;
+    self.rotation = 0.0f;
 }
 
 - (void)setProperBackgroundColorForGroup {
@@ -88,25 +86,25 @@
             [self setColor:[UIColor blueColor]];
             break;
         case SCFGElementGroupHalogen:
-            [self setColor:[UIColor cyanColor]];
+            [self setColor:[UIColor blueColor]];
             break;
         case SCFGElementGroupNonmetal:
-            [self setColor:[UIColor greenColor]];
+            [self setColor:[UIColor blueColor]];
             break;
         case SCFGElementGroupSemimetal:
-            [self setColor:[UIColor yellowColor]];
+            [self setColor:[UIColor blueColor]];
             break;
         case SCFGElementGroupBasicMetal:
-            [self setColor:[UIColor purpleColor]];
+            [self setColor:[UIColor blueColor]];
             break;
         case SCFGElementGroupAlkaliMetal:
-            [self setColor:[UIColor orangeColor]];
+            [self setColor:[UIColor blueColor]];
             break;
         case SCFGElementGroupAlkalineEarthMetal:
-            [self setColor:[UIColor redColor]];
+            [self setColor:[UIColor blueColor]];
             break;
         case SCFGElementGroupTransitionMetal:
-            [self setColor:[UIColor magentaColor]];
+            [self setColor:[UIColor blueColor]];
             break;
         default:
             self.alpha = 0.0f;
